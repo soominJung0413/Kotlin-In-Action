@@ -51,7 +51,9 @@ fun countClicks(window: Window) {
 
     window.addMouseListener(object :MouseAdapter() {
         override fun mouseClicked(e: MouseEvent?) {
-            clickCount++ // 익명객체에서 외부 요소를 수정해도 된다!.
+            clickCount++ // 익명객체에서 외부 요
+
+        // 소를 수정해도 된다!.
         }
     })
 }
